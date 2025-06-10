@@ -1,0 +1,16 @@
+{
+  "routes": {
+    "/api/foo": "http://localhost:8081/foo",
+    "/api/bar": "http://localhost:8082/bar"
+  },
+  "rate_limits": {
+    "/api/foo": {
+      "max_requests": 5,
+      "per_seconds": 10
+    },
+    "/api/bar": {
+      "max_requests": 10,
+      "per_seconds": 60
+    }
+  }
+}
