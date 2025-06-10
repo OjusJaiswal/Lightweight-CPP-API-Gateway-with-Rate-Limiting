@@ -17,3 +17,8 @@ A lightweight, high-performance API gateway in C++ that supports reverse proxyin
    mkdir build && cd build
    cmake ..
    make
+   ```
+3. Run:
+   ```bash
+   ./api_gateway
+   ```
